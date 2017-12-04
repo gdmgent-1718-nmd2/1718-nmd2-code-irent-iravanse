@@ -1,5 +1,25 @@
-<nav class="navbar fixed-bottom navbar-light bg-light">
-{%- if site.show-style-guide %}
-    <a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="btn">Style Guide</a>
-{%- endif %}
-</nav>
+
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
+<footer class="navbar fixed-bottom navbar-light bg-light">
+    {%- if site.show-style-guide %}
+
+        <div class="row">
+        <div class="col-4 footer">
+            <p>© 2017 Ira Van Severen</p>
+            <p>iravanse@student.arteveldehs.be</p>
+        </div>
+        <div class="col-4 footer">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+          <i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+        </div>
+        <div class="col-4 footer">
+          <p>13, Holland St. London</p>
+          <p>04 85 70 12 69</p> 
+        </div>
+        </div>
+    
+    {%- endif %}
+</footer>
