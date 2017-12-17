@@ -6,7 +6,12 @@
   url: /overdebaasjes.html
 - title: Kalender
   url: /kalender.html
-- title: Afspraken
-  url: /afspraken.html
+- title: Afspraak
+  url: /afspraak.html
+  sublinks:
+    - title: Betaling
+      url: /afspraak/betaling.html
+    - title: Bevestiging
+      url: /afspraak/bevestiging.html
 - title: Contacteer ons
   url: /contact.html

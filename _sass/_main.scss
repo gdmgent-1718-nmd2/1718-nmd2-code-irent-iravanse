@@ -1,3 +1,19 @@
 @import
   "bootstrap-variables",                  // See _bootstrap-variables.scss
   "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
+
+body{
+  font-family: Dosis, sans-serif;
+}
+
+.orange_button{
+  color: white;
+  background-color: #bb5a18;
+  border-radius: 10em;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+}

@@ -1,48 +1,23 @@
 ---
 layout   : default
-permalink: /contact
+permalink: /afspraak
 # Custom Page Variables
 # ─────────────────────
-title: Contacteer ons
+title: Afspraak
 ---
 
-<div class="col-12">
-<h1>Contacteer ons</h1>
-</div>
-
-<div class="col-4">
-    <img src="_img/telefoon.png" alt="telefoonicoon">
-    <p>Telefoon<br>
-    +44.2060.123456
-    </p>
-</div>
-
-<div class="col-4">
-    <img src="_img/adres.png" alt="adresicoon">
-    <p>Adres<br>
-    13 Holland St<br>
-    Londen, Engeland
-    </p>
-</div>
-
-<div class="col-4">
-    <img src="_img/mail.png" alt="mailicoon">
-    <p>E-mail<br>
-    ira.van.severen@hotmail.com
-    </p>
+<div class="col-12">      
+<ul class="breadcrumb">
+    <li class="active">Afspraak ></li>
+    <li><a href="#">Betaling ></a></li>
+    <li><a href="#">Bevestiging</a></li>
+</ul>
 </div>
 
 <div class="col-12">
-<p>Mocht je vragen hebben<br>
-Twijfel niet en zend ons een mail.</p>
-</div>
-
 <form>
         <div id="contact-form" class="form-container" data-form-container>
         <div class="row">
-            <div class="form-title">
-                <span>Contacteer ons</span>
-            </div>
         </div>
         <div class="input-container">
             <div class="row">
@@ -58,22 +33,40 @@ Twijfel niet en zend ons een mail.</p>
                 </span>
             </div>
             <div class="row">
+                    <span class="req-input">
+                        <span class="input-status" data-toggle="tooltip" data-placement="top" title="Please Input Your Adres."> </span>
+                        <input type="adres" placeholder="Adres">
+                    </span>
+                </div>
+            <div class="row">
                 <span class="req-input">
-                    <span class="input-status" data-toggle="tooltip" data-placement="top" title="Please Input Your Phone Number."> </span>
-                    <input type="tel" placeholder="Telefoonnummer/GSM">
+                    <span class="input-status" data-toggle="tooltip" data-placement="top" title="Please Input Your Country."> </span>
+                    <input type="country" placeholder="Land">
                 </span>
             </div>
             <div class="row">
-                <span class="req-input message-box">
-                    <span class="input-status" data-toggle="tooltip" data-placement="top" title="Please Include a Message."> </span>
-                    <textarea type="textarea" data-min-length="10" placeholder="Bericht"></textarea>
-            </div>
-            <div class="row submit-row">
-                <button type="button" class="orange_button">Verzend</button>
-            </div>
+                    <span class="req-input">
+                        <span class="input-status" data-toggle="tooltip" data-placement="top" title="Please Input Your Phone Number."> </span>
+                        <input type="tel" placeholder="Telefoonnummer/GSM">
+                    </span>
+                </div>
         </div>
         </div>
         </form>
+</div>
+
+<div class="overzicht">
+    <p>
+    Dinsdag<br>
+    26 decemeber 2018<br>
+    10u tot 12u<br>
+    7,00 euro
+    </p>
+</div>
+
+<div class="col-12">
+    <button class="orange_button">Betalen</button>
+</div>
 
 <!--div class="jumbotron">
     <h1 class="display-3">{{ page.title }}</h1>
