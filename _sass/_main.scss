@@ -44,6 +44,31 @@ footer{
   text-align: center;
 }
 
+.carousel{
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.card {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  width: 1000px;
+  .cardbody{
+  border-left: solid grey 1px;
+  }
+  .cardbody:first-child{
+  border-left: none;
+  }
+  }
+
+  a:link, a:visited {
+    color: #bb5a18;
+    text-align: center;
+    text-decoration: none;
+    }
+
 #overdehond{
   text-align: center;
 }
@@ -89,11 +114,12 @@ td{
 
 .contactform{
   width: 800px;
-  height: 620px;
+  height: 525px;
   text-align: center;
   background-color: #91a78a;
   border-radius: 4px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .contactform p{
