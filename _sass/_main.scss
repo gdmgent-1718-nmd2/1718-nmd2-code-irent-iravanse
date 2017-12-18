@@ -6,6 +6,11 @@ body{
   font-family: Dosis, sans-serif;
 }
 
+h1, h2{
+  color: #406d5f;
+  margin-top: 20px;
+}
+
 .orange_button{
   color: white;
   background-color: #bb5a18;
@@ -16,4 +21,96 @@ body{
   padding-bottom: 5px;
   font-weight: bold;
   margin-top: 20px;
+}
+
+nav{
+  font-family: Source Sans Pro, sans-serif;
+}
+
+nav a{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer{
+  font-family: Source Sans Pro, sans-serif;
+}
+
+.socialmedia{
+  text-align: center;
+}
+
+.scrollbutton{
+  text-align: center;
+}
+
+#overdehond{
+  text-align: center;
+}
+
+#vragen{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#naam{
+  margin-top: 40px;
+}
+
+#infohond{
+  margin-bottom: 20px;
+}
+
+#advies{
+  margin-top: 10px;
+}
+
+#ira{
+  text-align: right;
+}
+
+td{
+  padding-right: 50px;
+}
+
+.rechterkolom{
+  margin-top: 91px;
+}
+
+.knopmidden{
+  margin: auto;
+}
+
+.info{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contactform{
+  width: 800px;
+  height: 620px;
+  text-align: center;
+  background-color: #91a78a;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.contactform p{
+  margin-left: 80px;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 14pt;
+}
+
+input[type="text"]{
+  padding: 10px 20px;
+  border: solid, black;
+  padding-left: 500px;
+}
+
+textarea{
+  padding: 10px 20px;
+  border: solid, black;
+  padding-left: 500px;
 }

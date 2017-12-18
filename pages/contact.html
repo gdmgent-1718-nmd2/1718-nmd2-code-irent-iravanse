@@ -7,73 +7,64 @@ title: Contacteer ons
 ---
 
 <div class="col-12">
-<h1>Contacteer ons</h1>
+<h1 id="overdehond">Contacteer ons</h1>
 </div>
 
 <div class="col-4">
+<div class="info">
     <img src="_img/telefoon.png" alt="telefoonicoon">
     <p>Telefoon<br>
     +44.2060.123456
     </p>
 </div>
+</div>
 
 <div class="col-4">
+<div class="info">
     <img src="_img/adres.png" alt="adresicoon">
     <p>Adres<br>
     13 Holland St<br>
     Londen, Engeland
     </p>
 </div>
+</div>
 
 <div class="col-4">
+<div class="info">
     <img src="_img/mail.png" alt="mailicoon">
     <p>E-mail<br>
     ira.van.severen@hotmail.com
     </p>
 </div>
+</div>
 
 <div class="col-12">
-<p>Mocht je vragen hebben<br>
+<p id="vragen">Mocht je vragen hebben<br>
 Twijfel niet en zend ons een mail.</p>
 </div>
 
-<form>
-        <div id="contact-form" class="form-container" data-form-container>
-        <div class="row">
-            <div class="form-title">
-                <span>Contacteer ons</span>
-            </div>
+<form class="contactform">
+        <div class="form-input">
+            <p id="naam">Naam</p>
+            <input type="text" name="naam">
         </div>
-        <div class="input-container">
-            <div class="row">
-                <span class="req-input" >
-                    <span class="input-status" data-toggle="tooltip" data-placement="top" title="Input Your First and Last Name."> </span>
-                    <input type="text" data-min-length="8" placeholder="Naam">
-                </span>
-            </div>
-            <div class="row">
-                <span class="req-input">
-                    <span class="input-status" data-toggle="tooltip" data-placement="top" title="Please Input Your Email."> </span>
-                    <input type="email" placeholder="E-mail">
-                </span>
-            </div>
-            <div class="row">
-                <span class="req-input">
-                    <span class="input-status" data-toggle="tooltip" data-placement="top" title="Please Input Your Phone Number."> </span>
-                    <input type="tel" placeholder="Telefoonnummer/GSM">
-                </span>
-            </div>
-            <div class="row">
-                <span class="req-input message-box">
-                    <span class="input-status" data-toggle="tooltip" data-placement="top" title="Please Include a Message."> </span>
-                    <textarea type="textarea" data-min-length="10" placeholder="Bericht"></textarea>
-            </div>
-            <div class="row submit-row">
-                <button type="button" class="orange_button">Verzend</button>
-            </div>
+        <div class="form-input">
+            <p>E-mail</p>
+            <input type="text" name="email">
         </div>
+        <div class="form-input">
+            <p>Onderwerp</p>
+            <input type="text" name="onderwerp">
         </div>
-        </form>
+        <div class="form-input">
+            <p>Bericht</p>
+            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+        </div>
+    </form>
+
+<div class="knopmidden">
+    <button class="orange_button">Verzend</button>
+</div>
 
 <!--div class="jumbotron">
     <h1 class="display-3">{{ page.title }}</h1>
