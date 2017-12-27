@@ -1,46 +1,40 @@
 ---
 layout   : default
-permalink: afspraak/betaling
+permalink: betaling
 # Custom Page Variables
 # ─────────────────────
 title: Betaling
 ---
 
-<div class="col-12">      
-<ul class="breadcrumb">
-    <li><a href="#">Afspraak ></a></li>
-    <li class="active">Betaling ></li>
-    <li><a href="#">Bevestiging</a></li>
-</ul>
+<div class="col-sm-12">
+<nav aria-label="breadcrumb" role="navigation">
+    <ol class="breadcrumb justify-content-center">
+        <li class="breadcrumb-item">
+            <a href="afspraak.html">Afspraak</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">
+            Betaling
+        </li>
+    </ol>
+</nav>
 </div>
 
 <div class="kaart">
-<img src="img/paycard.png" alt="betaalkaart">
+<img src="img/paycard.png" alt="betaalkaart" width="15%">
 </div>
 
 <div class="col-12">
-<form>
-        <div id="contact-form" class="form-container" data-form-container>
-        <div class="row">
-        </div>
-        <div class="input-container">
-            <div class="row">
-                <span class="req-input" >
-                    <span class="input-status" data-toggle="tooltip" data-placement="top" title="Input Your First and Last Name."> </span>
-                    <input type="text" data-min-length="8" placeholder="Naam">
-                </span>
-            </div>
-            <div class="row">
-                <span class="req-input">
-                    <span class="input-status" data-toggle="tooltip" data-placement="top" title="Please Input Your Cardnumber."> </span>
-                    <input type="number" placeholder="Kaartnummer">
-                </span>
-            </div>
-        </div>
-        </div>
-</form>
+        <form class="contactform betaling">
+                <div class="form-input">
+                    <p id="naam">Naam</p>
+                    <input type="text" name="naam">
+                </div>
+                <div class="form-input">
+                    <p>Kaartnummer</p>
+                    <input type="text" name="kaartnummer">
+                </div>
 </div>
 
 <div class="col-12">
-    <button class="orange_button">Betalen</button>
+        <a class="btn" href="bevestiging.html" role="button">Betalen</a>
 </div>

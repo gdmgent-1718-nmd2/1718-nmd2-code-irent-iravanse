@@ -11,16 +11,35 @@ h1, h2{
   margin-top: 20px;
 }
 
-.orange_button{
+.mb-0{
+  
+}
+
+.indexfoto{
+  position: relative;
+}
+
+.btn,.btn:hover {
   color: white;
-  background-color: #bb5a18;
-  border-radius: 10em;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-weight: bold;
-  margin-top: 20px;
+	background-color: #bb5a18;
+	border: none;
+	border-radius: 10em;
+	padding: 5px 30px 5px 30px;
+	margin: 20px 0 20px 0;
+  font-family: Dosis, sans-serif;
+}
+
+.lmk{
+  position: absolute;
+  left: 70px;
+  top: 50%;
+  font-size: 14pt;
+}
+
+.cartoonimage{
+  width: 250px;
+  margin-top: 60px;
+  margin-left: 70px;
 }
 
 nav{
@@ -42,6 +61,7 @@ footer{
 
 .scrollbutton{
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .carousel{
@@ -54,7 +74,7 @@ footer{
   text-align: center;
   text-decoration: none;
   color: black;
-  width: 1000px;
+  width: 100%;
   .cardbody{
   border-left: solid grey 1px;
   }
@@ -64,10 +84,17 @@ footer{
   }
 
   a:link, a:visited {
-    color: #bb5a18;
     text-align: center;
     text-decoration: none;
     }
+
+#accordion{
+  margin-top: 20px;
+}
+
+#accordion a{
+  color: #bb5a18;
+}
 
 #overdehond{
   text-align: center;
@@ -89,10 +116,31 @@ footer{
 
 #advies{
   margin-top: 10px;
+  margin-bottom: 1px;
 }
 
 #ira{
   text-align: right;
+}
+
+#introtekst{
+  color: #807c7e;
+  font-size: 14pt;
+  margin-top: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#bestelling{
+  text-align: left;
+}
+
+.bevestiging{
+  text-align: center;
+}
+
+.kaart{
+  text-align: center;
 }
 
 td{
@@ -139,4 +187,18 @@ textarea{
   padding: 10px 20px;
   border: solid, black;
   padding-left: 500px;
+}
+
+.betaling{
+  width: 800px;
+  height: 200px;
+}
+
+.overzicht{
+  font-size: 14pt;
+  text-align: right;
+  border: solid black 0.1em;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 20px;
 }

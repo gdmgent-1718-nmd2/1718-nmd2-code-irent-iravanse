@@ -6,71 +6,51 @@ permalink: afspraak
 title: Afspraak
 ---
 
-<div class="col-12">      
-<ul class="breadcrumb">
-    <li class="active">Afspraak ></li>
-    <li><a href="#">Betaling ></a></li>
-    <li><a href="#">Bevestiging</a></li>
-</ul>
+<div class="col-sm-12">
+<nav aria-label="breadcrumb" role="navigation">
+    <ol class="breadcrumb justify-content-center">
+        <li class="breadcrumb-item active" aria-current="page">
+            Afspraak
+        </li>
+    </ol>
+</nav>
 </div>
 
 <div class="col-12">
-<form>
-        <div id="contact-form" class="form-container" data-form-container>
-        <div class="row">
-        </div>
-        <div class="input-container">
-            <div class="row">
-                <span class="req-input" >
-                    <span class="input-status" data-toggle="tooltip" data-placement="top" title="Input Your First and Last Name."> </span>
-                    <input type="text" data-min-length="8" placeholder="Naam">
-                </span>
-            </div>
-            <div class="row">
-                <span class="req-input">
-                    <span class="input-status" data-toggle="tooltip" data-placement="top" title="Please Input Your Email."> </span>
-                    <input type="email" placeholder="E-mail">
-                </span>
-            </div>
-            <div class="row">
-                    <span class="req-input">
-                        <span class="input-status" data-toggle="tooltip" data-placement="top" title="Please Input Your Adres."> </span>
-                        <input type="adres" placeholder="Adres">
-                    </span>
+        <form class="contactform">
+                <div class="form-input">
+                    <p id="naam">Naam</p>
+                    <input type="text" name="naam">
                 </div>
-            <div class="row">
-                <span class="req-input">
-                    <span class="input-status" data-toggle="tooltip" data-placement="top" title="Please Input Your Country."> </span>
-                    <input type="country" placeholder="Land">
-                </span>
-            </div>
-            <div class="row">
-                    <span class="req-input">
-                        <span class="input-status" data-toggle="tooltip" data-placement="top" title="Please Input Your Phone Number."> </span>
-                        <input type="tel" placeholder="Telefoonnummer/GSM">
-                    </span>
+                <div class="form-input">
+                    <p>E-mail</p>
+                    <input type="text" name="email">
                 </div>
-        </div>
-        </div>
-        </form>
+                <div class="form-input">
+                    <p>Adres</p>
+                    <input type="text" name="adres">
+                </div>
+                <div class="form-input">
+                    <p>Land</p>
+                    <input type="text" name="land">
+                </div>
+                <div class="form-input">
+                    <p>Telefoon</p>
+                    <input type="text" name="telefoon">
+                </div>
+            </form>
 </div>
 
-<div class="overzicht">
-    <p>
+<div class="col-sm-6 overzicht">
+    <p id="bestelling">
     Dinsdag<br>
     26 decemeber 2018<br>
     10u tot 12u<br>
+    </p>
+    <p>
+    <hr width="530" align="right" color="black" size="0.1em">
     7,00 euro
     </p>
-</div>
 
-<div class="col-12">
-    <button class="orange_button">Betalen</button>
+    <a class="btn" href="betaling.html" role="button">Betalen</a>
 </div>
-
-<!--div class="jumbotron">
-    <h1 class="display-3">{{ page.title }}</h1>
-</div>
-<div class="container">
-    <a class="btn btn-primary" href="http://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap 4 documentation</a>
-</div-->
