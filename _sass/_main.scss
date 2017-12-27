@@ -141,6 +141,8 @@ footer{
 
 .kaart{
   text-align: center;
+  position: absolute;
+  margin-top: 40px;
 }
 
 td{
@@ -189,9 +191,15 @@ textarea{
   padding-left: 500px;
 }
 
+.afspraak{
+  height: 600px;
+  margin-top: 20px;
+}
+
 .betaling{
   width: 800px;
-  height: 200px;
+  height: 270px;
+  margin-top: 60px;
 }
 
 .overzicht{
